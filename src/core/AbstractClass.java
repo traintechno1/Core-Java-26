@@ -9,7 +9,8 @@ public abstract class AbstractClass {
 	
 	abstract void details();
 	
-	void showDetails(){
+	void showDetails()
+	{
 		System.out.println("showDetails method called");
 	}
 }
