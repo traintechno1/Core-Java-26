@@ -2,6 +2,7 @@ package core;
 
 public class Encapsulation {
 		
+	@SuppressWarnings("unused")
 	private int bankBalance = 30000;
 	
 //	int getBankBalance() {
