@@ -11,6 +11,10 @@ public class Teacher extends Student{
 		
 		// Able to access default property lastName of Student class using subclass in same package
 		System.out.println(this.lastName);
+		
+		
+		// Not able to access private property email of Student class using subclass in same package 
+//		System.out.println(this.email);
 	}
 	
 }

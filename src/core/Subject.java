@@ -4,18 +4,25 @@ import college.Student;
 
 public class Subject extends Student {
 	void printSubject() {
-		// Accessing protected property outside of the package using subclass
+//		 Accessing protected property outside of the package using subclass
 		this.name = "Jalim";
 		
-		Student s1 = new Student();
-		// can not access protected property ouside of the package with object
-//		 get a CT error
+//		Student s1 = new Student();
+		
+//		can not access protected property ouside of the package with object
+//		get a CT error
 //		s1.name = "Rajashree";
 		
-		// can not access default property ouside of the package with object
+//		can not access default property ouside of the package with object
 //		s1.lastName = "Chakma";
 		
-		// can not access default property ouside of the package with subclass
+//		can not access default property ouside of the package with subclass
 //		this.lastName = "Chakma";
+		
+//      can not access private property ouside of the package with object
+//		s1.email = "";
+		
+//		can not access default property ouside of the package with subclass
+//		this.email = "";
 	}
 }

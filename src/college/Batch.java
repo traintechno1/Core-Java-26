@@ -12,8 +12,14 @@ public class Batch {
 		s1.name = "Jalim";
 		// able to access default property lastName in same package
 		s1.lastName = "Chakma";
+
+//		 not able to access private property within in same package
+//		s1.email = "damini@gmail.com";
+		
 		// able to access public method in same package
 		s1.printStudentDetails();
+		
+		
 		
 	}
 }
