@@ -14,7 +14,7 @@ public class Human {
     
     // This is my custom default constructor 
     Human(){
-    	System.out.println("Custom Default Constructor is called");
+//    	System.out.println("Custom Default Constructor is called");
     	hairColor = "Black";
     	height = 5.0f;
     	weight = 60.00f;
